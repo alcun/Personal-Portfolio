@@ -2,3 +2,15 @@
 
   text-align: center;
 }
+
+.project-flexbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.project-tile{
+  padding: 25px
+}
