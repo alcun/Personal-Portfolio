@@ -1,15 +1,15 @@
 <html>
 <head>
   <link rel="stylesheet" href="css/personal-portfolio.css">
-<title>Alcun Portfolio</title>
+<title>Alcun's Portfolio</title>
 </head>
 
 <body>
 
 
 <header>
-  <nav id="navbar">
-    <h1>HELLO</h1>
+  <nav class="header" id="navbar">
+    <h1>ALCUN'S PORTFOLIO</h1>
 
     <a class="content-link" id="about-link"
     href="#about">About</a>
@@ -20,7 +20,8 @@
       <a href="#html-css-projects">(HTML/CSS)</a>
       <a href="#python-projects">(Python)</a>
       <a href="#js-projects">(JS/Jquery)</a>
-
+<br>
+<br>
   </nav>
 </header>
 
@@ -32,9 +33,14 @@
 
 
 
-<section id="welcome-section">
-<h1> Welcome to my Portfolio </h1>
-<p>Welcome - feel free to have a look around</p>
+<section id="welcome-section" class="project-flexbox">
+
+
+<h1>Hi, I'm Alcun - Welcome to my Portfolio :)</h1>
+<p>Feel free to have a look around.</p>
+<p>You can navigate this portfolio using the links in the header bar or by scrolling down.</p>
+
+
 </section>
 
 
@@ -391,7 +397,7 @@
 <section>
 
 <p id="git-link">
-All these projects and more at <a id="profile-link" href="https://alcun.github.io" target="_blank">my github page </a>
+All these projects and more at <a id="profile-link" href="https://alcun.github.io" target="_blank">my github page</a>.
 </p>
 
 </section>
@@ -414,7 +420,13 @@ All these projects and more at <a id="profile-link" href="https://alcun.github.i
 <br>
 <hr>
 <br>
-  <p>A bit about me:</p>
+  <p>Hello - I hope this message finds you well!</p>
+  <p>My name is Alasdair.</p>
+  <p>I like building things using technology - tools to make life easier and access important information better.</p>
+  <p>This portfolio began life as the final project in the CSS/HTML Responsive Web Desing course by freecodecamp.org. </p>
+  <p>As time goes on, I will continue to update this page with things I have made and learned.</p>
+  <p>You can send me an email below if you want to collaborate or just communciate.</p>
+  <p>Be well and have an excellent day :)</p>
 
 </section>
 
@@ -429,19 +441,37 @@ All these projects and more at <a id="profile-link" href="https://alcun.github.i
 
   <section id="contact">
   <header>
-    <h1>Get In Touch:</h1>
+    <h2>Get In Touch:</h2>
+  </header>
+  <br>
+  <hr>
+  <br>
+<fieldset>
+  <legend>Drop me a line:</legend>
+  <form action=”mailto:alasdair@talkwell.world”
+  method=”POST”
+  enctype=”multipart/form-data”
+  name=”EmailForm”>
+  <label>Your name...<br>
+  <input type="text" name="name" placeholder="I am called..."</label><br>
+  <label>Your email...<br>
+  <input type="email" name="email" placeholder="My email is..."</label><br>
+  <label>What's up?<br>
+  <textarea class="textarea-1" name="comment" placeholder="I wanted to say..."></textarea></label><br><br>
+  <input type=”submit” value="Submit"></form>
+
+  <p>Having some issues with where to send form data. In the meantime you can email me <a href="mailto:alasdair@talkwell.world">here</a> :) </p>
+
+</fieldset>
 
     <br>
-    <hr>
     <br>
-  </header>
-    <p>Get in touch</p>
+    <br>
 
   </section>
 
 
 
-  <br>
   <hr>
   <br>
 
