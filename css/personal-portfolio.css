@@ -20,11 +20,14 @@ h3 {
   text-decoration: underline;
 }
 
-.header {
-background-color: black;
-color: white;
-position: fixed; top: 0;
-width: 100%
+a {
+  background-color: black;
+  color: white;
+}
+
+
+a::after{
+  color: white;
 }
 
 #welcome-section {
@@ -33,21 +36,45 @@ width: 100%
   height: 100vh;
 }
 
+.projects-header{
+}
 
 
+.desc{
+  color: white;
+}
+
+
+.header {
+background-color: black;
+color: white;
+position: fixed; top: 0;
+width: 100%
+}
+
+
+
+
+.border{
+  border-style: dotted;
+}
 
 .project-flexbox{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
 }
 
 .project-tile{
   padding: 30px;
-  background: grey;
-  border-style: outset;
+  background: black;
+  color: red;
+  border-style: double;
   border-color: green;
+  justify-content: space-between;
+
 
 }
 
@@ -56,8 +83,12 @@ width: 100%
   width: 30%
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:700px) {
      .header {
          font-size:5px;
+     }
+     .project-tile{
+       font-size:5px;
+
      }
  }
